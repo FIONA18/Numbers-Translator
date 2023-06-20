@@ -43,7 +43,7 @@ main h2
 main h2 span{
     color: var(--primary-color);
 }
-.output
+#output
 {
     background-color: #5eead4;
     height: 10rem;
@@ -53,4 +53,14 @@ main h2 span{
     padding: 1rem;
     border-radius: 1rem;
 
+}
+#submit
+{
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    font-family: inherit;
+    background-color: var(--secondary-color);
+    border-color: var(--primary-color);
+    border-radius: 1rem;
 }
